@@ -1,0 +1,14 @@
+h1{
+    text-align: center;
+}
+.nav1{
+    font-size: 15px;
+    background-color:black;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.nav1:hover{
+    text-decoration:underline;
+}
+

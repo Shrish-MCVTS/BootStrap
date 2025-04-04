@@ -9,14 +9,76 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="container-fluid">
-        <h1>BootStrap Website</h1>
+    <nav class="navbar navbar-expand-md bg-danger">
+        <ul class="navbar nav">
+            <li class = "nav item">
+                <a class="nav1" class="nav-link" href="#car">To The IMAGES</a>
+            </li>
+            <li class="nav item">
+                <a class="nav1" class="nav-link" href="#card1">CARD!</a>
+            </li>
+            <li class="nav item">
+                <a class="nav1" class="nav-link" href="#card2">CARD!</a>
+            </li>
+        </ul>
+    </nav>
+        <h1>Phoenix</h1>
+        <br>
+        <br>
+        <br>
         <div class="row">
             <div class="col-md p-3 bg-danger text-white">First part</div>
             <div class="col-md p-3 bg-dark text-white">Second part</div>
             <div class="col-md p-3 bg-danger text-white">Third part</div>
             <div class="col-md p-3 bg-dark text-white">Fourth Part</div>
         </div>
+    </div>
+    <br>
+        <br>
+        <br>
+    <div class="container">
+
+    <div id="car" class="carousel slide" data-bs-ride="carousel">
+<div class="carousel-indicators">
+<button type="button" data-bs-ride="#car" data-bs-slide-to = "0" class="active"></button>
+<button type="button" data-bs-ride="#car" data-bs-slide-to="1"></button>
+<button type="button" data-bs-ride="#car" data-bs-slide-to="2"></button>
+</div>
+<div class="carousel-inner">
+    <div class = "carousel-item active">
+        <img src="Phoenix1.jpg" alt="Phoenix1" class="d-block w-100">
+    </div>
+    <div class = "carousel-item">
+        <img src="Phoenix2.webp" alt="Phoenix1" class="d-block w-100">
+    </div>
+    <div class = "carousel-item">
+        <img src="Phoenix3.jpg" alt="Phoenix1" class="d-block w-100">
+    </div>
+</div>
+<button class="carousel-control-prev" type="button" data-bs-target="#car" data-bs-slide = "prev">
+    <span class = "carousel-control-prev-icon"></span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#car" data-bs-slide = "next">
+    <span class = "carousel-control-next-icon"></span>
+</button>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div  id="card1" class="card bg-danger text-white">
+        <div class="card-title">Person</div>
+        <div class="card-header"> First Name: Shrish</div>
+        <div class="card-body"> Card </div>
+        <div class="card-footer">Bio</div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div  id="card2" class="card bg-black text-white">
+        <div class="card-title">Person</div>
+        <div class="card-header">Last Name: Kushwaha</div>
+        <div class="card-body">Card </div>
+        <div class="card-footer">Bio</div>
     </div>
 </body>
 </html>
