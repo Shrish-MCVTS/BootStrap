@@ -11,4 +11,7 @@ h1{
 .nav1:hover{
     text-decoration:underline;
 }
+.cardGroup{
+    display: flex;
+}
 
